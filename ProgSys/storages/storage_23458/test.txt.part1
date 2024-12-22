@@ -1,0 +1,46 @@
+rveur intermédiaire pour récupérer la liste des serveurs actifs...
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+[INFO] Liste des serveurs actifs reçue : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+[INFO] Serveur choisi pour la duplication : 127.0.0.1:23458
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+[INFO] Le serveur intermédiaire a été informé de la duplication.
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at StorageServer.handleClientRequest(StorageServer.java:116)
+        at StorageServer.lambda$startStorageServer$1(StorageServer.java:91)
+        at java.base/java.lang.Thread.run(Unknown Source)
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at StorageServer.handleClientRequest(StorageServer.java:116)
+        at StorageServer.lambda$startStorageServer$1(StorageServer.java:91)
+        at java.base/java.lang.Thread.run(Unknown Source)
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at StorageServer.handleClientRequest(StorageServer.java:116)
+        at StorageServer.lambda$startStorageServer$1(StorageServer.java:91)
+        at java.base/java.lang.Thread.run(Unknown Source)
+java.io.EOFException
+Action reçue : DUPLICATE
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+Fichier reçu et stocké : D:\work\S3\progSys\storages\storage_23456\test.txt.part2
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at StorageServer.handleClientRequest(StorageServer.java:116)
+        at StorageServer.lambda$startStorageServer$1(StorageServer.java:91)
+        at java.base/java.lang.Thread.run(Unknown Source)
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at StorageServer.handleClientRequest(StorageServer.java:116)
+        at StorageServer.lambda$startStorageServer$1(StorageServer.java:91)
+        at java.base/java.lang.Thread.run(Unknown Source)

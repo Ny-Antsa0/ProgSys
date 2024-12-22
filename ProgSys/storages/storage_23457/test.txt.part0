@@ -1,0 +1,32 @@
+IntermediateServer
+Liste des serveurs actifs envoyée : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+Morceau envoyé : test.txt.part0 -> 127.0.0.1:23456
+Morceau envoyé : test.txt.part1 -> 127.0.0.1:23457
+Liste des serveurs actifs envoyée : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+Morceau envoyé : test.txt.part2 -> 127.0.0.1:23458
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at IntermediateServer.lambda$listenForStorageServers$1(IntermediateServer.java:165)
+        at java.base/java.lang.Thread.run(Unknown Source)
+Liste des serveurs actifs envoyée : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+Liste des serveurs actifs envoyée : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+Fichier map.ini mis à jour.
+Fichier map chargé.
+Fichier map chargé.
+Liste des serveurs actifs envoyée : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+Fichier uploadé et enregistré dans map.ini : test.txt
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at java.base/java.io.DataInputStream.readUTF(Unknown Source)
+        at IntermediateServer.lambda$listenForStorageServers$1(IntermediateServer.java:165)
+        at java.base/java.lang.Thread.run(Unknown Source)
+Liste des serveurs actifs envoyée : [127.0.0.1:23456, 127.0.0.1:23457, 127.0.0.1:23458]
+java.io.EOFException
+        at java.base/java.io.DataInputStream.readFully(Unknown Source)
+        at java.base/java.io.DataInputStream.readUnsignedShort(Unknown Source)
+        at java.base/java.io.DataInputStream.readUT
